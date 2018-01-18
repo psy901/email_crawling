@@ -15,6 +15,7 @@ def main():
 
     results = Google.get_results(search_terms, max_links_from_google)
     emails = set()
+    print("")
     for url in results:
         print("Working on: " + url)
         new_emails = Email.get_emails(url)
@@ -25,6 +26,6 @@ def main():
                 print(email)
         else:
             print("No emails found from: " + url)
-
+    print("\n=============================================\n")
 if __name__ == "__main__":
     main()
