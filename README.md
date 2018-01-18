@@ -6,7 +6,9 @@ This requires an installation of
 * FireFox
 
 With all required packages, run with
-> python3 Main.py
+```
+python3 Main.py
+```
 
 ## Setting
 
