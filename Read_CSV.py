@@ -10,7 +10,7 @@ def read_csv(filename, num_rows):
     # getting columns of name and country
     for index, row in table.iterrows():
         name = row['Name']
-        country = row['Country']
-        search_term = name + " " + country
+        # country = row['Country']
+        search_term = name
         search_terms.append(search_term)
     return search_terms
